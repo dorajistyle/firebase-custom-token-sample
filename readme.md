@@ -41,7 +41,6 @@ errorCode: PERMISSION_DENIED message : permission_denied at /official_paper/priv
 3. Click Add Firebase to your web app(https://console.firebase.google.com/project/your-database/settings/general/) and copy config json contents into customTokenRuleConfig.json file.
 2. Import customTokenRuleConfig.json file into your firebase database.
 3. Copy contennts from databaseRule.json and paste it to your firebase database rule.
-4. Put your database name into databaseName of generate-firebase-custom-token.js file.
 4. Get uid from firebase database and put it into uid variable of generate-firebase-custom-token.js file.
 5. Run commands below.
 
