@@ -1,6 +1,6 @@
-# Firebase custom token sample
+# Firebase custom token sample ([한국어로 보기](readme-ko.md))
 
-It generate a firebase custom token and test the token.
+It generate a firebase custom token and test the token working properly with firebase database rule. 
 
 ----
 
@@ -40,7 +40,7 @@ errorCode: PERMISSION_DENIED message : permission_denied at /official_paper/priv
 2. Save the private key as serviceAccountKey.json and put it into firebase-custom-token-sample folder.
 3. Click Add Firebase to your web app(https://console.firebase.google.com/project/your-database/settings/general/) and copy config json contents into customTokenRuleConfig.json file.
 2. Import customTokenRuleConfig.json file into your firebase database.
-3. Copy contennts from databaseRule.json and paste it to your firebase database rule.
+3. Copy contents from databaseRule.json and paste it to your firebase database rule.
 4. Get uid from firebase database and put it into uid variable of generate-firebase-custom-token.js file.
 5. Run commands below.
 
@@ -65,3 +65,4 @@ errorCode: PERMISSION_DENIED message : permission_denied at /official_paper/priv
 * [https://firebase.google.com/docs/admin/setup](https://firebase.google.com/docs/admin/setup)
 * [https://firebase.google.com/docs/auth/admin/create-custom-tokens](https://firebase.google.com/docs/auth/admin/create-custom-tokens)
 * [https://firebase.google.com/docs/reference/security/database](https://firebase.google.com/docs/reference/security/database)
+
