@@ -39,7 +39,7 @@ errorCode: PERMISSION_DENIED message : permission_denied at /official_paper/priv
 
 1. 우선 파이어베이스 프로젝트를 만들고 프로젝트 설정 > 서비스 계정으로 가서 새 비공개 키 생성을 합니다. 이 문서를 참고하세요. [파이어베이스 관리자 설정](https://firebase.google.com/docs/admin/setup).
 2. 비공개 키를 serviceAccountKey.json 이름으로 저장하고 firebase-custom-token-sample 폴더에 넣으세요.
-3. 일반설정 에서 '웹 앱에 Firebase 추가'(https://console.firebase.google.com/project/your-database/settings/general/)를 누르고, config 부분의 json 내용을 복사해서 customTokenRuleConfig.json 파일에 넣으세요.
+3. 일반설정에서 '웹 앱에 Firebase 추가'를 누르고, config 부분의 json 내용을 복사해서 customTokenRuleConfig.json 파일에 넣으세요.
 2. customTokenRuleConfig.json 파일을 JSON 가져오기로 파이어베이스 데이터베이스에 넣으세요.
 3. databaseRule.json 파일 내용을 복사해서 파이어베이스 데이터베이스 규칙에 붙여넣으세요.
 4. generate-firebase-custom-token.js 파일에 파이어베이스 데이터베이스에서 가져온 uid를 uid 변수에 넣습니다.
