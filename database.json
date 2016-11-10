@@ -1,0 +1,21 @@
+{
+  "official_paper" : {
+    "private" : {
+      "en" : "It is a secret data for custom token rule. Only shaman can access this data.",
+      "es" : "No deberíamos tener esperanza para la mujer.",
+      "ko" : "무당만 읽을 수 있는 데이터 입니다."
+    },
+    "public" : {
+      "en" : "It is a test data for custom token rule.",
+      "ko" : "커스텀 토큰을 사용해서 규칙을 제어하는 방법을 보여줍니다."
+    }
+  },
+  "roles" : {
+    "shadowy" : {
+      "shaman" : {
+        "en" : true,
+        "ko" : true
+      }
+    }
+  }
+}

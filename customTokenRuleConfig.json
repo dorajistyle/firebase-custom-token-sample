@@ -1,0 +1,7 @@
+{
+    "apiKey": "AIzaSyANI-E667sTGLSvVbCEDk99vLzy5mKoRbI",
+    "authDomain": "custom-token-rule.firebaseapp.com",
+    "databaseURL": "https://custom-token-rule.firebaseio.com",
+    "storageBucket": "custom-token-rule.appspot.com",
+    "messagingSenderId": "143442903826"
+}

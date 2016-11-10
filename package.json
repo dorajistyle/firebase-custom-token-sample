@@ -1,0 +1,30 @@
+{
+  "name": "firebase-custom-token-sample",
+  "version": "1.0.0",
+  "description": "It generate a firebase custom token and test the token.",
+  "main": "test-custom-token.js",
+  "dependencies": {
+    "firebase": "^3.6.0",
+    "firebase-admin": "^4.0.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "node test-custom-token.js `node generate-firebase-custom-token.js` official_paper/private/en"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dorajistyle/firebase-custom-token-sample"
+  },
+  "keywords": [
+    "firebase",
+    "node",
+    "js",
+    "custom",
+    "token",
+    "generate",
+    "test",
+    "rule"
+  ],
+  "author": "Joongseob Vito Kim (github.com/dorajistyle)",
+  "license": "MIT"
+}

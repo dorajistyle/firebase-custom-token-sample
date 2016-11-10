@@ -1,0 +1,16 @@
+{
+  "rules": {
+    ".read": "false",
+    ".write": "false",
+    "official_paper":{
+      "public": {
+        ".read": "auth != null"
+      },
+      "private": {
+        "$data_id": {
+          ".read": "root.child('roles').child('shadowy').child(auth.role).child($data_id).val() == true"
+        }
+      }
+    }
+  }
+}
